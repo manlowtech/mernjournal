@@ -4,7 +4,7 @@
   "description": "mernpress cms",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index.js",
+    "vevo": "nodemon server/index.js",
     "mern": "node index.js",
     "client":"cd client && npm install && npm run build",
     "adds":"npx sequelize-cli db:migrate --env production ",
